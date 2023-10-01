@@ -1,56 +1,80 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family:
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color: bisque;
+  /* background-color: bisque; */
 }
 nav {
-    height: 80px;
-    background: grey;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem calc((100vw - 1300px) / 2);
+  height: 80px;
+  background: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
 }
 
 .logo {
-    color: black;
-    font size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
 }
 
 nav a {
-    text-decoration: none;
-    color: black;
-    padding: 0 1.5rem;
+  text-decoration: none;
+  color: black;
+  padding: 0 1.5rem;
 }
 
 button {
-    padding: 1rem 3rem;
-    font-size: 1rem;
-    border: none;
-    color: bisque;
-    background: black;
-    cursor: pointer;
-    border-radius: 50px;
-    display: block;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  color: bisque;
+  background: black;
+  cursor: pointer;
+  border-radius: 50px;
+  display: block;
 }
 
-.buttons-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: black;
-    padding: 0rem 2rem;
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+  padding: 0rem 2rem;
 }
 
 button:hover {
-    background: white;
-    color: black;
+  background: white;
+  color: black;
+}
+.add-patient {
+  margin: 3em auto;
+  width: 80%;
+  display: grid;
+  padding: 3em;
+  border-radius: 15px;
+  background-color: rgb(235, 213, 213);
+}
+.add-patient-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+.add-patient-container button {
+  background-color: cadetblue;
+  padding: 3em;
+  width: 100%;
+}
+
+.card {
+  display: grid;
+  width: 100%;
+  margin-bottom: 1.5em;
+  gap: 0.5em;
 }

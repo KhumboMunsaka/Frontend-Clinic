@@ -1,46 +1,51 @@
 <!DOCTYPE html>
-<html lang = "en"> 
-    <!--specifies that the primary language of the document is english-->
+<html lang="en">
+  <!--specifies that the primary language of the document is english-->
 
-<head> 
+  <head>
     <!--contains metadata and is not visible to users on webpage-->
 
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8" />
     <!--supports a wide number of characters-->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Ensures that the website looks good on which ever device it is on-->
-
+    <link rel="stylesheet" href="style.css" />
     <title>Rhinestone Clinic Database</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="container">
-        <form action="" method="post">
-            
+      <form action="" method="post" class="add-patient">
+        <div class="add-patient-container">
+          <div class="card">
             <label>Patient ID&#42;</label>
-            <input>
+            <input />
             <label>Patient Name</label>
-            <input>
+            <input />
             <label>Patient Initials</label>
-            <input>
+            <input />
             <label>Patient Sex&#42;</label>
-            <input>
+            <input />
             <label>Patient Address</label>
-            <input>
-            <label>Patient Postal Code</label>
-            <input>
-            <label>Date Of Admission</label>
-            <input>
-            <label>Date Of Birth&#42;</label>
-            <input>
-            <label>Ward ID</label>
-            <input>
-            <label>Next of Kin</label> 
-            <input>
+            <input />
+          </div>
 
-            <input type = "submit" value = "submit">
-        </form>
+          <div class="card">
+            <label>Patient Postal Code</label>
+            <input />
+            <label>Date Of Admission</label>
+            <input />
+            <label>Date Of Birth&#42;</label>
+            <input />
+            <label>Ward ID</label>
+            <input />
+            <label>Next of Kin</label>
+            <input />
+          </div>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+      </form>
     </main>
-</body>
+  </body>
 </html>
 <!--buttons for viewing database as a whole and some for deleting, altering etc-->
